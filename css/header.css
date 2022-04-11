@@ -1,0 +1,41 @@
+header.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+header.main-header nav a {
+  font-weight: 700;
+  margin-left: 4rem;
+}
+header.main-header nav a:first-child {
+  margin-left: 0;
+}
+
+.login-buttons a {
+  font-weight: 700;
+}
+
+.login-buttons a:nth-child(2) {
+  border: var(--gray) solid 1px;
+  padding: 1rem 2.4rem;
+  transition: border 0.3s;
+  margin-left: 3.2rem;
+}
+
+.login-buttons a:nth-child(2):hover {
+  border: var(--purple) solid 1px;
+}
+.login-buttons a:nth-child(3) {
+  border: var(--gray) solid 1px;
+  padding: 1rem 1.8rem;
+  background-color: var(--purple);
+  color: var(--white);
+  margin-left: 1.4rem;
+  transition: opacity 0.2s;
+}
+
+.login-buttons a:nth-child(3):hover {
+  opacity: 0.8;
+}

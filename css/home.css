@@ -1,0 +1,33 @@
+section#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8.1rem;
+}
+
+section#home div.home-content div:last-child {
+  margin-top: 5.4rem;
+}
+
+section#home div.home-content div:last-child a:first-child {
+  background-color: var(--purple);
+  padding: 1.5rem 3.7rem;
+  color: var(--white);
+  transition: opacity 0.2s;
+  border: var(--gray) solid 1px;
+}
+
+section#home div.home-content div:last-child a:first-child:hover {
+  opacity: 0.8;
+}
+
+section#home div.home-content div:last-child a:last-child {
+  border: var(--gray) solid 1px;
+  padding: 1.5rem 1.8rem;
+  transition: border 0.3s;
+  margin-left: 2rem;
+}
+
+section#home div.home-content div:last-child a:last-child:hover {
+  border: var(--purple) solid 1px;
+}
