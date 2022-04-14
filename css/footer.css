@@ -1,0 +1,73 @@
+footer {
+  margin-top: 7.7rem !important;
+  margin-bottom: 10.7rem !important;
+  padding-left: 6.1rem;
+  display: grid;
+  grid-template-columns: 31.7rem 41.6rem 22.3rem;
+  gap: 7.6rem;
+}
+
+footer div.footer-content {
+  display: grid;
+  /* align-items: flex-start;
+  gap: 5.206rem; */
+}
+
+footer div.footer-content div.logo {
+  justify-content: flex-start;
+}
+
+footer div.footer-content p {
+  color: var(--gray);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
+
+footer div.columns-navigate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8.1rem;
+  margin-top: 3rem;
+}
+
+footer div.columns-navigate nav p {
+  color: #8b8b8b;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+footer div.columns-navigate nav a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+footer div.social-contacts {
+  background-color: var(--purple);
+  border-radius: 2.5rem;
+  color: var(--white);
+  padding: 2.9rem 2.1rem 3.4rem 1.9rem;
+  display: grid;
+  gap: 1.1rem;
+}
+
+footer div.social-contacts h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+footer div.social-contacts a {
+  color: var(--white);
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 2.2rem;
+  font-weight: 500;
+}

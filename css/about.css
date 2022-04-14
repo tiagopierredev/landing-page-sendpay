@@ -1,0 +1,39 @@
+section#about {
+  margin-top: 19rem;
+  display: grid;
+  place-items: center;
+}
+
+section#about > p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  opacity: 0.6;
+  text-align: center;
+  max-width: 58.7rem;
+}
+
+section#about div.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 8rem;
+  padding: 0 9.7rem;
+}
+
+section#about div.cards div.card {
+  display: grid;
+  place-items: center;
+}
+
+section#about div.cards div.card h3 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-top: 5.6rem;
+}
+
+section#about div.cards div.card p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  opacity: 0.6;
+  margin-top: 1.1rem;
+}

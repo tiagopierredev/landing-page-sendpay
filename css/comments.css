@@ -1,0 +1,143 @@
+section#comments {
+  margin-top: 28.4rem;
+  background-color: var(--purple);
+  position: relative;
+}
+
+section#comments div.container {
+  padding-top: 6.2rem;
+  padding-bottom: 7.4rem;
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  gap: 17rem;
+}
+
+section#comments div.rounded {
+  width: 19.5rem;
+  height: 19.5rem;
+  background-color: var(--background);
+  border-radius: 50%;
+  opacity: 0.25;
+  position: absolute;
+}
+
+section#comments div.rounded:nth-child(1) {
+  top: 3rem;
+  left: 11.7rem;
+}
+
+section#comments div.rounded:nth-child(2) {
+  top: 3rem;
+  right: 7.7rem;
+}
+
+section#comments div.rounded:nth-child(3) {
+  width: 37.1rem;
+  height: 37.1rem;
+  left: 33.2rem;
+  bottom: -9.4rem;
+  background-color: #e6e8ec;
+}
+
+section#comments div.container div.content-comments h2 {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 3.3rem;
+  font-style: italic;
+  line-height: 4rem;
+}
+
+section#comments div.container div.content-comments div.divider {
+  margin-top: 1.7rem;
+  margin-bottom: 2.6rem;
+  background-color: var(--white);
+  opacity: 0.8;
+}
+
+section#comments div.container div.content-comments a {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--white);
+  vertical-align: middle;
+  transition: opacity 0.2s;
+}
+section#comments div.container div.content-comments a:hover {
+  opacity: 0.8;
+}
+
+section#comments div.container div.content-comments a span {
+  color: var(--black);
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 1.1rem;
+}
+
+section#comments div.container div.cards-comments {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+section#comments div.container div.cards-comments div.card-comment {
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  padding: 2.3rem 0rem 2.4rem 2.6rem;
+  margin-left: 1.8rem;
+}
+
+section#comments div.container div.cards-comments div.card-comment:first-child {
+  margin-left: 0;
+}
+
+section#comments div.container div.cards-comments div.card-comment p {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 3.5rem;
+  width: 21.8rem;
+}
+
+section#comments div.container div.cards-comments div.card-comment > div {
+  display: flex;
+  margin-top: 2.5rem;
+}
+section#comments div.container div.cards-comments div.card-comment > div > div {
+  margin-left: 1.9rem;
+}
+
+section#comments
+  div.container
+  div.cards-comments
+  div.card-comment
+  > div
+  > div
+  p:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 3.518rem;
+}
+
+section#comments
+  div.container
+  div.cards-comments
+  div.card-comment
+  > div
+  > div
+  p:last-child {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #787777;
+  line-height: 2.814px;
+  margin-top: 1rem;
+}
